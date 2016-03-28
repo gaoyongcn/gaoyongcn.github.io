@@ -41,7 +41,7 @@
 <link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="关注机器学习与数据挖掘" />
+  <meta name="keywords" content="神经网络 深度学习," />
 
 
 
@@ -57,19 +57,24 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="description" content="人工神经网络是对人脑完成特定任务的方法的模拟。
+神经元图1 生物神经元细胞">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yogolab.com/2016/03/28/hello-world/index.html">
+<meta property="og:title" content="人工神经网络（ANN）">
+<meta property="og:url" content="http://yogolab.com/2016/03/28/神经网络/index.html">
 <meta property="og:site_name" content="关注于机器学习与数据挖掘">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
-<meta property="og:updated_time" content="2016-03-28T01:05:16.455Z">
+<meta property="og:description" content="人工神经网络是对人脑完成特定任务的方法的模拟。
+神经元图1 生物神经元细胞">
+<meta property="og:image" content="http://yogolab.com/yogolab.com/images/-神经元.png">
+<meta property="og:image" content="http://yogolab.com/yogolab.com/images/-神经元模型1.png">
+<meta property="og:image" content="http://yogolab.com/yogolab.com/images/-激活函数图像.png">
+<meta property="og:image" content="http://yogolab.com/yogolab.com/images/-BP.PNG">
+<meta property="og:updated_time" content="2016-03-27T18:34:54.999Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="twitter:title" content="人工神经网络（ANN）">
+<meta name="twitter:description" content="人工神经网络是对人脑完成特定任务的方法的模拟。
+神经元图1 生物神经元细胞">
+<meta name="twitter:image" content="http://yogolab.com/yogolab.com/images/-神经元.png">
 
 
 
@@ -87,7 +92,7 @@ Quick">
   };
 </script>
 
-  <title> Hello World | 关注于机器学习与数据挖掘 </title>
+  <title> 人工神经网络（ANN） | 关注于机器学习与数据挖掘 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
@@ -227,7 +232,7 @@ Quick">
             
             
               
-                Hello World
+                人工神经网络（ANN）
               
             
           </h1>
@@ -239,19 +244,38 @@ Quick">
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-03-28T09:05:16+08:00" content="2016-03-28">
+            <time itemprop="dateCreated" datetime="2016-03-28T01:01:51+08:00" content="2016-03-28">
               2016-03-28
             </time>
           </span>
 
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/深度学习/" itemprop="url" rel="index">
+                    <span itemprop="name">深度学习</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
           
 
           
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/03/28/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/03/28/hello-world/" itemprop="commentsCount"></span>
+                <a href="/2016/03/28/神经网络/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/03/28/神经网络/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -273,15 +297,210 @@ Quick">
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <p>人工神经网络是对人脑完成特定任务的方法的模拟。</p>
+<h2 id="神经元"><a href="#神经元" class="headerlink" title="神经元"></a>神经元</h2><p><img src="yogolab.com/images/-神经元.png" alt="Alt text"><br><strong>图1 生物神经元细胞</strong><br><a id="more"></a></p>
+<p>在生物神经网络中，神经元是神经网络的基本单元，树突接收来自其他神经元的传递电信号(电信号有两种：兴奋信号和抑制信号)， 轴突用来传出细胞 体产生的输出电信号。一 个神经元把来自不同树突的兴奋性或抑制性输入信号 （突触后膜电位）累加求和，当膜电位高于<code>阈值</code>，细胞被激活，并通过突触把产生的电信号传递给其他神经细胞。</p>
+<p>通过对生物神经元的仿真，建立抽象模型，在模型中，神经元接收来自多个神经元的信息，并把这些输入信号通过待权重的连接（connection）进行传递。神经元通过接受到的总输入值与神经元的阈值相比较，大于阈值，通过<code>激活函数(activation function)</code>处理已产生神经元的输出。</p>
+<p><img src="yogolab.com/images/-神经元模型1.png" alt="Alt text"></p>
+<p><strong>图2 是为纪念McCulloch和Pitts 命名的”M-P神经元模型”</strong><br>$$O_j=f(\sum_{i=1}^{n}x_{i}w_{ij}-\theta_j)$$</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">符号</th>
+<th style="text-align:left">解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$x_i$</td>
+<td style="text-align:left">表示来自第个神经元的输入。</td>
+</tr>
+<tr>
+<td style="text-align:center">$w_{ij}$</td>
+<td style="text-align:left">表示当前神经元来自第个神经元的连接权重。</td>
+</tr>
+<tr>
+<td style="text-align:center">$\sum$</td>
+<td style="text-align:left">表示求和单元，用于求取各输入信号的加权和（线性组合）。</td>
+</tr>
+<tr>
+<td style="text-align:center">$\theta_j$</td>
+<td style="text-align:left">表示当前神经元的阈值。</td>
+</tr>
+<tr>
+<td style="text-align:center">$f$</td>
+<td style="text-align:left">表示激活函数，起映射作用并将神经元输出幅度限制在一定范围内。</td>
+</tr>
+<tr>
+<td style="text-align:center">$O_j$</td>
+<td style="text-align:left">表示当前神经元的输出</td>
+</tr>
+</tbody>
+</table>
+<p>常见的激活函数有3种</p>
+<p><img src="yogolab.com/images/-激活函数图像.png" alt="Alt text"></p>
+<p><strong>图3 激活函数图像</strong></p>
+<ul>
+<li>阶跃函数（step function）</li>
+<li>分段线性函数（放大系数为1的非线性函数）</li>
+<li>sigmoid函数 （严格单调递增函数）</li>
+<li>双曲正切函数</li>
+</ul>
+<h2 id="感知机"><a href="#感知机" class="headerlink" title="感知机"></a>感知机</h2><p><code>感知机(Perceptron)</code>由两层神经元组成，输入层神经元及输出层神经元。</p>
+<p>输入层负责传递输入信号。<br>只有输出层神经元进行激活函数处理，因此输出层神经元也被称为<code>功能层神经元（function neuron）</code>。<br>PS: 感知机只有一层功能层神经元，学习能力有限，只能用于<code>线性可分</code>问题。</p>
+<h2 id="多层神经网络"><a href="#多层神经网络" class="headerlink" title="多层神经网络"></a>多层神经网络</h2><h3 id="误差逆传播-BP"><a href="#误差逆传播-BP" class="headerlink" title="误差逆传播(BP)"></a>误差逆传播(BP)</h3><p><code>误差逆传播(BP)(error Back Propagation)</code>，俗称BP神经网络，是一种按误差逆传播算法训练的多层前馈网络，是目前应用最广泛的神经网络模型之一。<br>BP神经网络主要包括 输入层I，隐藏层H，输出层O</p>
+<ul>
+<li>输入层仅提供数据输入，无激活函数。</li>
+<li>在BP神经网络中，输入层和输出层的节点数目都是确定的。</li>
+<li>激活函数必须处处可导。</li>
+</ul>
+<p>对于训练集：$T=\{(x_1,y_1),(x_1,y_1),\dots,(x_n,y_n)\}$</p>
+<p>其中,$x_k \in R^d,y_k \in R^l,$即输入示例有$d$个属性，标签有$l$个类别。<br>对于其中一条训练样本$(x_k,y_k)$，输入层中的一个神经元对应样本的一个属性，即：输入层有个$d$神经元。<code>输出层中的一个神经元对应样本标签的一个类别</code>,即：输出层有$l$个神经元。</p>
+<p>激活函数为sigmoid函数$f(x)=\frac{1}{1+e^x}$ ，BP神经网络示意图如下所示：</p>
+<p><img src="yogolab.com/images/-BP.PNG" alt="Alt text"><br><strong>图4 BP神经网络图像</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">符号</th>
+<th style="text-align:left">解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$x_{i}^{(k)}$</td>
+<td style="text-align:left">输入层第个神经元的输出,表示样本中的一个属性，$x^{(k)}=[x_{1}^{(k)},x_{2}^{(k)},x_{i}^{(k)},\dots,x_{d}^{(k)},]$</td>
+</tr>
+<tr>
+<td style="text-align:center">$w_{ih}$</td>
+<td style="text-align:left">神经元和神经元的连接权重</td>
+</tr>
+<tr>
+<td style="text-align:center">$a_{h}^{(k)}$</td>
+<td style="text-align:left">隐藏层第个神经元的输入,$a_{h}^{(k)}=\sum_{i=1}^{d}x_{i}^{(k)}w_{ih}$ </td>
+</tr>
+<tr>
+<td style="text-align:center">$b_{h}^{(k)}$</td>
+<td style="text-align:left">隐藏层第个神经元的输出,$b_{h}^{(k)}=f(a_{h}^{(k)}-\theta_{h})$ </td>
+</tr>
+<tr>
+<td style="text-align:center">$w_{hj}$</td>
+<td style="text-align:left">神经元和神经元的连接权重</td>
+</tr>
+<tr>
+<td style="text-align:center">$\beta_{j}^{(k)}$</td>
+<td style="text-align:left">输出层第个神经元的输入,$\beta_{j}^{(k)}=\sum_{h=1}^{q}b_{h}^{(k)}w_{hj}$ </td>
+</tr>
+<tr>
+<td style="text-align:center">$y^{(k)}$</td>
+<td style="text-align:left">表示样本$k$的真实标签</td>
+</tr>
+<tr>
+<td style="text-align:center">$\hat{y}_{j}^{(k)}$</td>
+<td style="text-align:left">输出层第$j$个神经元的输出,表示样本$k(k \in [1,2,\dots,l])$的类别，$\hat{y}_{j}^{(k)}=f(\beta_{j}^{(k)}-\theta	_{j})$</td>
+</tr>
+</tbody>
+</table>
+<p>训练BP神经网络模型的过程本质上是调整连接权值和阈值，使得训练样本误差最小。<br>即单个样本训练误差为：$$E^{(k)}=\frac{1}{2}\sum_{j=1}^{l}(y_{j}^{(k)}-\hat{y}_{j}^{(k)})$$</p>
+<p>神经网络中权重的更新采用的求解方法是<code>梯度下降(gradient descent)方法</code>，问题转化为求解：<br> 
+$$\Delta w_{hj} = -\eta \frac{\partial E^{(k)}}{\partial w_{hj}}$$
+$$\Delta \theta_{j} = -\eta \frac{\partial E^{(k)}}{\partial \theta_{j}}$$
+$$\Delta w_{ih} = -\eta \frac{\partial E^{(k)}}{\partial w_{ih}}$$
+$$\Delta \theta_{h} = -\eta \frac{\partial E^{(k)}}{\partial \theta_{h}}$$
+</p>
+<hr>
+
+$$\frac{\partial E^{(k)}}{\partial w_{hj}} =\frac{\partial E^{(k)}}{\partial \hat{y}_{j}^{(k)}}\frac{\partial \hat{y}_{j}^{(k)}}{\partial \beta_{j}^{(k)}}\frac{\partial \beta_{j}^{(k)}}{\partial w_{hj}}$$
+$$\frac{\partial E^{(k)}}{\partial w_{hj}} =-(y_{j}^{(k)}-\hat{y}_{j}^{(k)})[\hat{y}_{j}^{(k)}(1-\hat{y}_{j}^{(k)})](b_{h}^{(k)})$$
+
+<hr>
+
+$$ \frac{\partial E^{(k)}}{\partial \theta_{j}} = \frac{\partial E^{(k)}}{\partial \hat{y}_{j}^{(k)}} \frac{\partial \hat{y}_{j}^{(k)}}{\partial \theta_{j}}$$
+$$\frac{\partial E^{(k)}}{\partial \theta_{j}}=(y_{j}^{(k)}-\hat{y}_{j}^{(k)})[\hat{y}_{j}^{(k)}(1-\hat{y}_{j}^{(k)})]$$
+
+<hr>
+
+$$\frac{\partial E^{(k)}}{\partial w_{ih}}=\frac{\partial E^{(k)}}{\partial b_{h}^{(k)}}\frac{\partial b_{h}^{(k)}}{\partial  \alpha_{h}^{(k)}}\frac{\partial  \alpha_{h}^{(k)}}{\partial w_{ih}}$$
+$$e_{h} = \frac{\partial E^{(k)}}{\partial b_{h}^{(k)}}\frac{\partial b_{h}^{(k)}}{\partial  \alpha_{h}^{(k)}}=\frac{\partial E^{(k)}}{\partial \beta_{j}^{(k)}}\frac{\partial \beta_{j}^{(k)}}{\partial b_{h}^{(k)}}\frac{\partial b_{h}^{(k)}}{\partial  \alpha_{h}^{(k)}}=[-(y_{j}^{(k)}-\hat{y}_{j}^{(k)})[\hat{y}_{j}^{(k)}(1-\hat{y}_{j}^{(k)})](w_{hj})]b_{h}^{(k)}(1-b_{h}^{(k)})$$
+$$\frac{\partial E^{(k)}}{\partial w_{ih}}=e_{h}(x_{i}^{(k)})$$
+
+<hr>
+
+$$\frac{\partial E^{(k)}}{\partial \theta_{h}}=\frac{\partial E^{(k)}}{\partial b_{h}^{(	k)}}\frac{\partial b_{h}^{(	k)}}{\partial \theta_{h}}$$
+$$\frac{\partial E^{(k)}}{\partial \theta_{h}}=(y_{j}^{(k)}-\hat{y}_{j}^{(k)})[\hat{y}_{j}^{(k)}(1-\hat{y}_{j}^{(k)})](w_{hj})b_{h}^{(k)}(1-b_{h}^{(k)}) =-e_{h}$$
+
+<hr>
+<p><code>综上所述，即</code><br>
+$$\Delta w_{hj} = -\eta \frac{\partial E^{(k)}}{\partial w_{hj}}=-\eta g_{j}$$
+$$\Delta \theta_{j} = -\eta \frac{\partial E^{(k)}}{\partial \theta_{j}}=\eta e_{h}x_{i}^{(k)}$$
+$$\Delta w_{ih} = -\eta \frac{\partial E^{(k)}}{\partial w_{ih}}=-\eta e_{h}x_{i}^{(k)}$$
+$$\Delta \theta_{h} = -\eta \frac{\partial E^{(k)}}{\partial \theta_{h}}=\eta e_{h}$$
+</p>
+<p>其中，<br>$g_{j}= -(y_{j}^{(k)}-\hat{y}_{j}^{(k)})[\hat{y}_{j}^{(k)}(1-\hat{y}_{j}^{(k)})](b_{h}^{(k)}),e_{h}=[-(y_{j}^{(k)}-\hat{y}_{j}^{(k)})[\hat{y}_{j}^{(k)}(1-\hat{y}_{j}^{(k)})](w_{hj})]b_{h}^{(k)}(1-b_{h}^{(k)})$
+</p>
+<hr>
+<p>BP训练过程</p>
+<ol>
+<li>初始化所有的权值$w_{ih},w_{hj}$和神经元阈值$\theta_{h},\theta_{j}$</li>
+<li>计算值 <ul>
+<li>计算$\hat{y}$</li>
+<li>计算$g_j$</li>
+<li>计算$e_h$</li>
+</ul>
+</li>
+</ol>
+<p>更新所有的权值和阈值<br>循环（1-3），一直到循环停止条件。<br>自组织映射（SOM）</p>
+<ul>
+<li>卷积神经网络可以把中间一层的输出作为数据的另一种表达形式，中间输出可作为神经网络识别的特征，基于该特征可以进行进一步的相似度比较</li>
+<li>卷积神经网络参数众多，需要大规模数据来训练</li>
+</ul>
+<h2 id="卷积神经网络-CNN"><a href="#卷积神经网络-CNN" class="headerlink" title="卷积神经网络(CNN)"></a>卷积神经网络(CNN)</h2><p>CNN(Convolution Neural Network)</p>
+<p>名词解析</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">英文单词</th>
+<th style="text-align:left">中文解析</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Convolution Neural Network</td>
+<td style="text-align:left">卷积神经网络</td>
+</tr>
+<tr>
+<td style="text-align:left">neural network</td>
+<td style="text-align:left">神经网络</td>
+</tr>
+<tr>
+<td style="text-align:left">activation function</td>
+<td style="text-align:left">激活函数</td>
+</tr>
+<tr>
+<td style="text-align:left">hyperbolic tangen</td>
+<td style="text-align:left">双曲正切函数</td>
+</tr>
+<tr>
+<td style="text-align:left">bias units</td>
+<td style="text-align:left">偏置顶</td>
+</tr>
+<tr>
+<td style="text-align:left">activation</td>
+<td style="text-align:left">激活值</td>
+</tr>
+<tr>
+<td style="text-align:left">forward propagation</td>
+<td style="text-align:left">前向传播</td>
+</tr>
+<tr>
+<td style="text-align:left">feedforward neural network</td>
+<td style="text-align:left">前馈神经网络</td>
+</tr>
+<tr>
+<td style="text-align:left">converge</td>
+<td style="text-align:left">收敛</td>
+</tr>
+</tbody>
+</table>
 
       
     </div>
@@ -294,18 +513,28 @@ Quick">
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/神经网络-深度学习/" rel="tag">#神经网络 深度学习</a>
+          
+        </div>
+      
 
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/03/28/GBD程序调试/" rel="next" title="GBD程序调试">
-                <i class="fa fa-chevron-left"></i> GBD程序调试
+              <a href="/2016/03/28/排序总结/" rel="next" title="排序总结">
+                <i class="fa fa-chevron-left"></i> 排序总结
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/03/28/GBD程序调试/" rel="prev" title="GBD程序调试">
+                GBD程序调试 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -320,10 +549,10 @@ Quick">
 
     <div class="post-spread">
       
-        <div class="ds-share flat" data-thread-key="2016/03/28/hello-world/"
-     data-title="Hello World"
+        <div class="ds-share flat" data-thread-key="2016/03/28/神经网络/"
+     data-title="人工神经网络（ANN）"
      data-content=""
-     data-url="http://yogolab.com/2016/03/28/hello-world/">
+     data-url="http://yogolab.com/2016/03/28/神经网络/">
   <div class="ds-share-inline">
     <ul  class="ds-share-icons-16">
 
@@ -353,8 +582,8 @@ Quick">
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/03/28/hello-world/"
-           data-title="Hello World" data-url="http://yogolab.com/2016/03/28/hello-world/">
+      <div class="ds-thread" data-thread-key="2016/03/28/神经网络/"
+           data-title="人工神经网络（ANN）" data-url="http://yogolab.com/2016/03/28/神经网络/">
       </div>
     
   </div>
@@ -468,7 +697,7 @@ Quick">
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#神经元"><span class="nav-number">1.</span> <span class="nav-text">神经元</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#感知机"><span class="nav-number">2.</span> <span class="nav-text">感知机</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#多层神经网络"><span class="nav-number">3.</span> <span class="nav-text">多层神经网络</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#误差逆传播-BP"><span class="nav-number">3.1.</span> <span class="nav-text">误差逆传播(BP)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#卷积神经网络-CNN"><span class="nav-number">4.</span> <span class="nav-text">卷积神经网络(CNN)</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
