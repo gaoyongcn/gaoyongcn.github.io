@@ -65,16 +65,16 @@
 <meta property="og:site_name" content="关注于机器学习与数据挖掘">
 <meta property="og:description" content="人工神经网络是对人脑完成特定任务的方法的模拟。
 神经元图1 生物神经元细胞">
-<meta property="og:image" content="http://yogolab.com/images/-神经元.png">
-<meta property="og:image" content="http://yogolab.com/yogolab.com/images/-神经元模型1.png">
-<meta property="og:image" content="http://yogolab.com/yogolab.com/images/-激活函数图像.png">
-<meta property="og:image" content="http://yogolab.com/yogolab.com/images/-BP.PNG">
-<meta property="og:updated_time" content="2016-03-28T11:29:06.271Z">
+<meta property="og:image" content="http://yogolab.com/./images/-神经元.png">
+<meta property="og:image" content="http://yogolab.com/./images/-神经元模型1.png">
+<meta property="og:image" content="http://yogolab.com/./images/-激活函数图像.png">
+<meta property="og:image" content="http://yogolab.com/./images/-BP.PNG">
+<meta property="og:updated_time" content="2016-03-28T11:32:57.135Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="人工神经网络（ANN）">
 <meta name="twitter:description" content="人工神经网络是对人脑完成特定任务的方法的模拟。
 神经元图1 生物神经元细胞">
-<meta name="twitter:image" content="http://yogolab.com/images/-神经元.png">
+<meta name="twitter:image" content="http://yogolab.com/./images/-神经元.png">
 
 
 
@@ -298,10 +298,10 @@
 
       
         <p>人工神经网络是对人脑完成特定任务的方法的模拟。</p>
-<h2 id="神经元"><a href="#神经元" class="headerlink" title="神经元"></a>神经元</h2><p><img src="images/-神经元.png" alt="Alt text"><br><strong>图1 生物神经元细胞</strong><br><a id="more"></a></p>
+<h2 id="神经元"><a href="#神经元" class="headerlink" title="神经元"></a>神经元</h2><p><img src="./images/-神经元.png" alt="Alt text"><br><strong>图1 生物神经元细胞</strong><br><a id="more"></a></p>
 <p>在生物神经网络中，神经元是神经网络的基本单元，树突接收来自其他神经元的传递电信号(电信号有两种：兴奋信号和抑制信号)， 轴突用来传出细胞 体产生的输出电信号。一 个神经元把来自不同树突的兴奋性或抑制性输入信号 （突触后膜电位）累加求和，当膜电位高于<code>阈值</code>，细胞被激活，并通过突触把产生的电信号传递给其他神经细胞。</p>
 <p>通过对生物神经元的仿真，建立抽象模型，在模型中，神经元接收来自多个神经元的信息，并把这些输入信号通过待权重的连接（connection）进行传递。神经元通过接受到的总输入值与神经元的阈值相比较，大于阈值，通过<code>激活函数(activation function)</code>处理已产生神经元的输出。</p>
-<p><img src="yogolab.com/images/-神经元模型1.png" alt="Alt text"></p>
+<p><img src="./images/-神经元模型1.png" alt="Alt text"></p>
 <p><strong>图2 是为纪念McCulloch和Pitts 命名的”M-P神经元模型”</strong><br>$$O_j=f(\sum_{i=1}^{n}x_{i}w_{ij}-\theta_j)$$</p>
 <table>
 <thead>
@@ -338,7 +338,7 @@
 </tbody>
 </table>
 <p>常见的激活函数有3种</p>
-<p><img src="yogolab.com/images/-激活函数图像.png" alt="Alt text"></p>
+<p><img src="./images/-激活函数图像.png" alt="Alt text"></p>
 <p><strong>图3 激活函数图像</strong></p>
 <ul>
 <li>阶跃函数（step function）</li>
@@ -357,7 +357,7 @@
 <p>对于训练集：$T=\{(x_1,y_1),(x_1,y_1),\dots,(x_n,y_n)\}$</p>
 <p>其中,$x_k \in R^d,y_k \in R^l,$即输入示例有$d$个属性，标签有$l$个类别。<br>对于其中一条训练样本$(x_k,y_k)$，输入层中的一个神经元对应样本的一个属性，即：输入层有个$d$神经元。<code>输出层中的一个神经元对应样本标签的一个类别</code>,即：输出层有$l$个神经元。</p>
 <p>激活函数为sigmoid函数$f(x)=\frac{1}{1+e^x}$ ，BP神经网络示意图如下所示：</p>
-<p><img src="yogolab.com/images/-BP.PNG" alt="Alt text"><br><strong>图4 BP神经网络图像</strong></p>
+<p><img src="./images/-BP.PNG" alt="Alt text"><br><strong>图4 BP神经网络图像</strong></p>
 <table>
 <thead>
 <tr>
